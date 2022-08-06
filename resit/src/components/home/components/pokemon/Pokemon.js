@@ -29,7 +29,7 @@ function Pokemon({ pokemon }) {
             variant="light"
             onClick={() => setShowMore(!showMore)}
           >
-            <h3 className="text-success border bg-light rounded mt-4">
+            <h3 className="text-success border bg-light rounded mt-4 onHoverStats">
               {showMore ? "Show less" : "Show more"}
             </h3>{" "}
           </Card.Text>
