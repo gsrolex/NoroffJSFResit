@@ -1,0 +1,91 @@
+* {
+  background-color: #212529;
+}
+
+.hpColor {
+  color: rgb(245, 55, 55);
+}
+
+.navHover:hover {
+  text-decoration: underline !important;
+}
+
+.navStyle, .linkBackground {
+  background-color: rgb(22, 22, 22) !important;
+}
+
+.navStyle {
+  font-size: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60vh;
+  min-width: 60vh;
+}
+
+.centerHeading {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
+
+.thankYou {
+  width: 150px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(57, 158, 57);
+  border-radius: 10px;
+}
+
+.thankYou:hover {
+  background-color: rgb(49, 138, 49);
+}
+
+.pkmnButton:hover {
+  background-color: rgb(245, 55, 55) !important;
+  color: #fff !important;
+}
+
+.dropdownContainer {
+  background-color: #fff;
+  color: #000;
+  width: 280px;
+  margin: auto;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.dropdownContainer a {
+  text-decoration: none;
+}
+
+.dropdownSearch {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgb(177, 217, 252) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.dropdownContainerInput {
+  background-color: #fff;
+  width: 280px;
+  margin: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.dropdownName {
+  font-size: 18px;
+  color: #212529;
+  padding: 5px;
+}
+
+.dropdownName:hover {
+  background-color: #fff;
+}
+
+select option {
+  background-color: #fff;
+}/*# sourceMappingURL=style.css.map */
