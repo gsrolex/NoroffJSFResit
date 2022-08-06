@@ -83,7 +83,7 @@
 }
 
 .dropdownName:hover {
-  background-color: #fff;
+  background-color: rgb(219, 219, 219);
 }
 
 select option {
